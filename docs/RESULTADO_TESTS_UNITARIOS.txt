@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: P8-01: éxito: mapea datos del perfil
+ok 1 - P8-01: éxito: mapea datos del perfil
+  ---
+  duration_ms: 4.844093
+  type: 'test'
+  ...
+# Subtest: P8-02: input vacío: nunca llama a fetch
+ok 2 - P8-02: input vacío: nunca llama a fetch
+  ---
+  duration_ms: 0.781802
+  type: 'test'
+  ...
+# Subtest: P8-03: espacios: nunca llama a fetch
+ok 3 - P8-03: espacios: nunca llama a fetch
+  ---
+  duration_ms: 0.22491
+  type: 'test'
+  ...
+# Subtest: P8-04: 404 reporta error para catch
+ok 4 - P8-04: 404 reporta error para catch
+  ---
+  duration_ms: 0.263489
+  type: 'test'
+  ...
+# Subtest: P8-05: 403 maneja límite de API
+ok 5 - P8-05: 403 maneja límite de API
+  ---
+  duration_ms: 0.227574
+  type: 'test'
+  ...
+# Subtest: P8-06: 429 maneja exceso de peticiones
+ok 6 - P8-06: 429 maneja exceso de peticiones
+  ---
+  duration_ms: 0.224469
+  type: 'test'
+  ...
+# Subtest: P8-07: sin bio ni nombre usa textos alternativos
+ok 7 - P8-07: sin bio ni nombre usa textos alternativos
+  ---
+  duration_ms: 0.200934
+  type: 'test'
+  ...
+# Subtest: P8-08: se recortan espacios en username
+ok 8 - P8-08: se recortan espacios en username
+  ---
+  duration_ms: 0.253663
+  type: 'test'
+  ...
+# Subtest: P8-09: respuesta incompleta se rechaza
+ok 9 - P8-09: respuesta incompleta se rechaza
+  ---
+  duration_ms: 0.70129
+  type: 'test'
+  ...
+# Subtest: P8-10: errores HTTP 500 producen error informativo
+ok 10 - P8-10: errores HTTP 500 producen error informativo
+  ---
+  duration_ms: 0.619857
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 103.50182
